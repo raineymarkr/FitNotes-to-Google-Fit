@@ -10,7 +10,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 # Constants
-CLIENT_SECRET_FILE = r'client_secret_4084195344-bu40ofts42fmi76imesjc04sdr4p1j7q.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = r'SECRET_FILE'
 SCOPES = ['https://www.googleapis.com/auth/fitness.activity.write']
 
 def get_credentials():
