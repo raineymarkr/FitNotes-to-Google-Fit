@@ -66,10 +66,10 @@ with open('data.csv') as csv_file:
                     "name": "workout",
                     "description": "workout time",
                     "startTimeMillis": datetime_to_milliseconds(row[0]),
-                    "endTimeMillis": datetime_to_milliseconds(row[0])+60000,
+                    "endTimeMillis": datetime_to_milliseconds(row[0])+3600000,
                     "modifiedTimeMillis": datetime_to_milliseconds(row[0]),
                     "activityType": 97,
-                    "activeTimeMillis": 60000,
+                    "activeTimeMillis": 3600000,
                     }
                 workouts.append(data)
                 line_count += 1
